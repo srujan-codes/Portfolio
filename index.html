@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srujan Vooturi — AI/ML Engineer</title>
+  <meta name="description" content="Portfolio of Srujan Vooturi — MSCS student at Northeastern University specializing in LLMs, multi-agent systems, and full-stack development." />
+
+  <!-- Apply saved theme BEFORE CSS paints to prevent flash -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || (!t && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SV<span class="nav-logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark mode">
+          <svg class="theme-icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="theme-icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" type="button" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <p class="hero-label">MSCS · Northeastern · Khoury College of Computer Sciences</p>
+      <h1 class="hero-name">Srujan Vooturi<span class="dot">.</span></h1>
+      <div class="hero-subtitle">
+        <span id="typewriter" class="gradient-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-bio">I build production AI systems — from multi-agent LLM architectures to full-stack applications.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section" data-animate>
+    <div class="container container--narrow">
+      <h2 class="section-heading">About</h2>
+      <p class="lead">
+        Graduate student at Northeastern's Khoury College concentrating in AI/ML. I work on LLM engineering, multi-agent systems, and building production-ready AI applications — combining deep interest in generative AI with hands-on full-stack experience.
+      </p>
+      <p class="lead">
+        From winning a hackathon with an adversarial AI courtroom system to shipping enterprise asset-tracking platforms, I turn complex problems into clean, working software.
+      </p>
+      <div class="stats">
+        <div class="stat-card" data-animate>
+          <span class="stat-value gradient-text">1st</span>
+          <span class="stat-label">Place — NE AI Hackathon</span>
+        </div>
+        <div class="stat-card" data-animate>
+          <span class="stat-value gradient-text">2</span>
+          <span class="stat-label">Industry Internships</span>
+        </div>
+        <div class="stat-card" data-animate>
+          <span class="stat-value gradient-text">MS</span>
+          <span class="stat-label">CS — Northeastern Khoury</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section" data-animate>
+    <div class="container">
+      <h2 class="section-heading">Experience</h2>
+      <div class="exp-stack">
+
+        <article class="exp-card" data-animate>
+          <div class="exp-top">
+            <div>
+              <h3 class="exp-company">Aurigene Pharmaceutical Services</h3>
+              <p class="exp-role">Generative AI Intern</p>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-date">Jul — Oct 2025</span>
+              <span class="exp-loc">Hyderabad, India</span>
+            </div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Developed <strong>Documentor AI</strong>, a tool ensuring scientific accuracy by correcting grammar, punctuation, and context in scientific documents.</li>
+            <li>Built features for context-aware text generation and terminology accuracy using prompt engineering techniques.</li>
+            <li>Contributed to the React-based frontend integration, ensuring seamless interaction with the AI backend.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">Generative AI</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </article>
+
+        <article class="exp-card" data-animate>
+          <div class="exp-top">
+            <div>
+              <h3 class="exp-company">NTT Data Business Solutions</h3>
+              <p class="exp-role">Full Stack Web Development Intern</p>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-date">Jan — Apr 2025</span>
+              <span class="exp-loc">Hyderabad, India</span>
+            </div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Contributed to an enterprise-level IT asset tracking system within an Agile environment.</li>
+            <li>Engineered key modules using ASP.NET Core MVC and SQL Server with QR code scanning, role-based access, and automated email notifications.</li>
+            <li>Enhanced operational efficiency and reduced manual tracking errors across sprint-based delivery cycles.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">C#</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">Agile</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section" data-animate>
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+
+      <div class="project-hero" data-animate>
+        <span class="project-badge">1st Place — $5,000</span>
+        <h3 class="project-hero-title">Verdict</h3>
+        <p class="project-hero-tagline gradient-text">Adversarial Multi-Agent AI Courtroom System</p>
+        <p class="project-hero-desc">
+          Built an adversarial multi-agent AI system simulating courtroom proceedings. Won 1st place and $5,000 at the New England Inter-Collegiate AI Hackathon. Multiple LLM agents assume adversarial roles to analyze, argue, and deliberate cases.
+        </p>
+        <div class="tags">
+          <span class="tag">LLMs</span>
+          <span class="tag">Multi-Agent Systems</span>
+          <span class="tag">Python</span>
+          <span class="tag">Prompt Engineering</span>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-animate>
+          <h3 class="project-card-name">AEET System</h3>
+          <p class="project-card-sub">IT Asset Entry Exit Tracking</p>
+          <p class="project-card-desc">
+            Secure, role-based IT asset management web app with QR code generation, check-in/check-out logging, dynamic employee-asset mapping, and automated email notifications.
+          </p>
+          <div class="tags">
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">C#</span>
+            <span class="tag">SQL Server</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate>
+          <h3 class="project-card-name">Animal Detection</h3>
+          <p class="project-card-sub">Real-Time Agricultural Safety</p>
+          <p class="project-card-desc">
+            Real-time animal detection system using Raspberry Pi 4 for agricultural safety — identifies animals in live camera feeds to protect crops and ensure farmer safety.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">Computer Vision</span>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section" data-animate>
+    <div class="container">
+      <h2 class="section-heading">Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-group" data-animate>
+          <h3 class="skills-heading">AI / ML</h3>
+          <div class="tags">
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">LLMs</span>
+            <span class="tag">Multi-Agent Systems</span>
+            <span class="tag">Generative AI</span>
+            <span class="tag">Computer Vision</span>
+          </div>
+        </div>
+        <div class="skills-group" data-animate>
+          <h3 class="skills-heading">Full Stack</h3>
+          <div class="tags">
+            <span class="tag">C#</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="skills-group" data-animate>
+          <h3 class="skills-heading">Tools &amp; Platforms</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">Git</span>
+            <span class="tag">Agile / Scrum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section" data-animate>
+    <div class="container">
+      <h2 class="section-heading">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card" data-animate>
+          <span class="edu-year">2025 — Present</span>
+          <h3 class="edu-school">Northeastern University</h3>
+          <p class="edu-degree">M.S. Computer Science — AI/ML Concentration</p>
+          <p class="edu-sub">Khoury College of Computer Sciences</p>
+        </div>
+        <div class="edu-card" data-animate>
+          <span class="edu-year">2021 — 2025</span>
+          <h3 class="edu-school">Shiv Nadar University</h3>
+          <p class="edu-degree">B.Tech Electronics &amp; Communication Engineering</p>
+          <p class="edu-sub">CGPA: 6.64</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section id="certificates" class="section" data-animate>
+    <div class="container container--narrow">
+      <h2 class="section-heading">Certificates</h2>
+      <div class="cert-row">
+        <span class="cert" data-animate>Basics of Web Development — Infosys Springboard</span>
+        <span class="cert" data-animate>Blockchain For Enterprises</span>
+        <span class="cert" data-animate>Ultimate JavaScript Strings</span>
+        <span class="cert" data-animate>Blockchain Opportunity Analysis</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section" data-animate>
+    <div class="container container--narrow">
+      <h2 class="section-heading">Let's Build Something Together</h2>
+      <p class="contact-intro">Open to AI/ML collaborations, engineering roles, and conversations about building intelligent systems.</p>
+      <div class="contact-links">
+        <a href="mailto:vooturisrujan@gmail.com" class="contact-pill" data-animate>
+          <svg class="contact-pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          vooturisrujan@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/srujan-vooturi" target="_blank" rel="noopener noreferrer" class="contact-pill" data-animate>
+          <svg class="contact-pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/srujan-codes" target="_blank" rel="noopener noreferrer" class="contact-pill" data-animate>
+          <svg class="contact-pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">Designed &amp; built by Srujan Vooturi</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
